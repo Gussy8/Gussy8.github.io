@@ -1,0 +1,17 @@
+html, body {
+    min-height: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+
+.overskrift {
+    color: blue;
+}
+body {
+    background: linear-gradient(135deg, #ffffff,#0094da)
+
+
+}
