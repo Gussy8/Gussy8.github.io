@@ -6,12 +6,17 @@ table, th, td {
     border: 1px solid black;
 }
 
+td {
+    color: #000000;
+}
+
 
 .overskrift {
     color: blue;
 }
 body {
-    background: linear-gradient(135deg, #ffffff,#0094da)
+    background: linear-gradient(135deg, #26c5ff,#0084ff)
 
 
 }
+
