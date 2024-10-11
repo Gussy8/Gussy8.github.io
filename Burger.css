@@ -12,7 +12,7 @@ body
 #menuToggle
 {
   display: block;
-  position: relative;
+  position: absolute;
   top: 50px;
   left: 50px;
   
@@ -32,7 +32,7 @@ body
 
 #menuToggle a:hover
 {
-  color: 26c5ff;
+  color: #26c5ff;
 }
 
 
@@ -116,7 +116,7 @@ body
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
+ 
   
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
