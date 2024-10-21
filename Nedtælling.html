@@ -1,54 +1,71 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<script type="text/javascript">
-var now = new Date();
-var event = new Date("Sep 20 2021 15:30:00");
-var seconds = (now - event) / 1000;
-var minutes = seconds / 60;
-var hours = minutes / 60;
-var days = hours / 24;
-var ID=window.setInterval(function() {update(), 1000});
-function update()
-{
-now = new Date();
-seconds = (event - now) / 1000;
-seconds = Math.round(seconds);
-minutes = seconds / 60;
-minutes = Math.round(minutes);
-hours = minutes / 60;
-hours = Math.round(hours);
-days = hours / 24;
-days = Math.round(days);
-document.getElementById('days').value = days;
-document.getElementById('hours').value = hours;
-document.getElementById('minutes').value = minutes;
-document.getElementById('seconds').value = seconds;
-}
-</script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gulles dagbog</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link href="Burger.css" rel="stylesheet" />
 </head>
+<script type="text/javascript">
+    var now = new Date();
+    var event = new Date("Dec 20 2024 15:30:00");
+    var seconds = (now - event) / 1000;
+    var minutes = seconds / 60;
+    var hours = minutes / 60;
+    var days = hours / 24;
+    var ID = window.setInterval(function () { update(), 1000 });
+    function update() {
+        now = new Date();
+        days = Math.floor((event-now)/1000/60/60/24)
+        hours = Math.floor((event-now)/1000/60/60)%24
+        minutes = Math.floor((event-now)/1000/60)%60
+        seconds = Math.floor((event-now)/1000)%60
+        document.getElementById('days').value = days;
+        document.getElementById('hours').value = hours;
+        document.getElementById('minutes').value = minutes;
+        document.getElementById('seconds').value = seconds;
+    }
+</script>
+
 <body>
-    <ul id="menu">
-        <a href="/index.html">
-            <li>Hjem</li>
-        </a>
-        <a href="/om.html">
-            <li>About</li>
-        </a>
-        <a href="/billede.html">
-            <li>Billede</li>
-        </a>
-        <a href="/video.html">
-            <li>Vidoeer</li>
-        </a>
-        <a href="/Nedtælling.html">
-            <li>Nedtælling</li>
-        </a>
-    </ul>
-<h1>Nedt&aelig;lling til vi skal hjem</h1>
-<p id="cnt">Der er <input type="text" id="days" value="0" style="width:40px;" /> dage eller
-<input type="text" id="hours" value="0" style="width:70px;"/>timer eller
-<input type="text" id="minutes" value="0" style="width:70px;"/> minutter, eller
-<input type="text" id="seconds" value="0" style="width:70px;"/> sekunder til vi skal hjem</p>
+    <nav role="navigation">
+        <div id="menuToggle">
+
+            <input type="checkbox" />
+
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+
+            <ul id="menu">
+                <a href="/index.html">
+                    <li>Hjem</li>
+                </a>
+                <a href="/om.html">
+                    <li>About</li>
+                </a>
+                <a href="/billede.html">
+                    <li>Billede</li>
+                </a>
+                <a href="/video.html">
+                    <li>Vidoeer</li>
+                </a>
+
+            </ul>
+        </div>
+    </nav>
+    <center>
+        <h1>Nedt&aelig;lling til vi skal hjem</h1>
+        <p id="cnt">Der er <input type="text" id="days" value="0" style="width:40px;" /> dage og
+            <input type="text" id="hours" value="0" style="width:70px;" />timer og
+            <input type="text" id="minutes" value="0" style="width:70px;" /> minutter, og
+            <input type="text" id="seconds" value="0" style="width:70px;" /> sekunder til vi har juleferie
+        </p>
+    </center>
 </body>
+
 </html>
