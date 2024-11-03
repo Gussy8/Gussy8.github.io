@@ -16,7 +16,7 @@ td {
 
 
 .overskrift {
-    color: blue;
+    color: rgb(0, 0, 0);
 }
 body {
     background: linear-gradient(135deg, #26c5ff,#0084ff)
@@ -24,3 +24,12 @@ body {
 
 }
 
+.sort {
+    color: #000000;
+}
+
+.boks{
+    background-color: transparent;
+    border-color: transparent;
+    width: fit-content;
+}
