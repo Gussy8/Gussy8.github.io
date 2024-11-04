@@ -1,9 +1,9 @@
 div.polaroid {
-    width: 220px;
-    padding: 10px 10px 20px 10px;
+    width: 150px;
+    padding: 20px 20px 20px 20px;
     border: 1px solid #BFBFBF;
     background-color: white;
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 10px 10px 5px #272424;
     margin-left: 50px;
 }
 
@@ -23,4 +23,4 @@ div.rotate_right {
 
 img {
     width:150px;
-}
+}   
