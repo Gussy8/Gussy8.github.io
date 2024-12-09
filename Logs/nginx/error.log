@@ -1,0 +1,905 @@
+2024/11/04 11:43:47 [notice] 1#1: using the "epoll" event method
+2024/11/04 11:43:47 [notice] 1#1: nginx/1.27.2
+2024/11/04 11:43:47 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/11/04 11:43:47 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/11/04 11:43:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/11/04 11:43:47 [notice] 1#1: start worker processes
+2024/11/04 11:43:47 [notice] 1#1: start worker process 29
+2024/11/04 11:43:47 [notice] 1#1: start worker process 30
+2024/11/04 11:43:47 [notice] 1#1: start worker process 31
+2024/11/04 11:43:47 [notice] 1#1: start worker process 32
+2024/11/04 11:43:47 [notice] 1#1: start worker process 33
+2024/11/04 11:43:47 [notice] 1#1: start worker process 34
+2024/11/04 11:43:47 [notice] 1#1: start worker process 35
+2024/11/04 11:43:47 [notice] 1#1: start worker process 36
+2024/11/04 11:43:47 [notice] 1#1: start worker process 37
+2024/11/04 11:43:47 [notice] 1#1: start worker process 38
+2024/11/04 11:43:47 [notice] 1#1: start worker process 39
+2024/11/04 11:43:47 [notice] 1#1: start worker process 40
+2024/11/04 11:44:13 [error] 29#29: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:27:35 [notice] 1#1: using the "epoll" event method
+2024/11/05 12:27:35 [notice] 1#1: nginx/1.27.2
+2024/11/05 12:27:35 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/11/05 12:27:35 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/11/05 12:27:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/11/05 12:27:35 [notice] 1#1: start worker processes
+2024/11/05 12:27:35 [notice] 1#1: start worker process 29
+2024/11/05 12:27:35 [notice] 1#1: start worker process 30
+2024/11/05 12:27:35 [notice] 1#1: start worker process 31
+2024/11/05 12:27:35 [notice] 1#1: start worker process 32
+2024/11/05 12:27:35 [notice] 1#1: start worker process 33
+2024/11/05 12:27:35 [notice] 1#1: start worker process 34
+2024/11/05 12:27:35 [notice] 1#1: start worker process 35
+2024/11/05 12:27:35 [notice] 1#1: start worker process 36
+2024/11/05 12:27:35 [notice] 1#1: start worker process 37
+2024/11/05 12:27:35 [notice] 1#1: start worker process 38
+2024/11/05 12:27:35 [notice] 1#1: start worker process 39
+2024/11/05 12:27:35 [notice] 1#1: start worker process 40
+2024/11/05 12:27:39 [error] 29#29: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:29:32 [error] 31#31: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:31:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/11/05 12:31:24 [notice] 30#30: gracefully shutting down
+2024/11/05 12:31:24 [notice] 38#38: gracefully shutting down
+2024/11/05 12:31:24 [notice] 31#31: gracefully shutting down
+2024/11/05 12:31:24 [notice] 29#29: gracefully shutting down
+2024/11/05 12:31:24 [notice] 34#34: gracefully shutting down
+2024/11/05 12:31:24 [notice] 33#33: gracefully shutting down
+2024/11/05 12:31:24 [notice] 32#32: gracefully shutting down
+2024/11/05 12:31:24 [notice] 36#36: gracefully shutting down
+2024/11/05 12:31:24 [notice] 35#35: gracefully shutting down
+2024/11/05 12:31:24 [notice] 30#30: exiting
+2024/11/05 12:31:24 [notice] 37#37: gracefully shutting down
+2024/11/05 12:31:24 [notice] 39#39: gracefully shutting down
+2024/11/05 12:31:24 [notice] 40#40: gracefully shutting down
+2024/11/05 12:31:24 [notice] 38#38: exiting
+2024/11/05 12:31:24 [notice] 31#31: exiting
+2024/11/05 12:31:24 [notice] 29#29: exiting
+2024/11/05 12:31:24 [notice] 33#33: exiting
+2024/11/05 12:31:24 [notice] 34#34: exiting
+2024/11/05 12:31:24 [notice] 32#32: exiting
+2024/11/05 12:31:24 [notice] 36#36: exiting
+2024/11/05 12:31:24 [notice] 35#35: exiting
+2024/11/05 12:31:24 [notice] 30#30: exit
+2024/11/05 12:31:24 [notice] 39#39: exiting
+2024/11/05 12:31:24 [notice] 37#37: exiting
+2024/11/05 12:31:24 [notice] 38#38: exit
+2024/11/05 12:31:24 [notice] 40#40: exiting
+2024/11/05 12:31:24 [notice] 31#31: exit
+2024/11/05 12:31:24 [notice] 29#29: exit
+2024/11/05 12:31:24 [notice] 33#33: exit
+2024/11/05 12:31:24 [notice] 34#34: exit
+2024/11/05 12:31:24 [notice] 32#32: exit
+2024/11/05 12:31:24 [notice] 36#36: exit
+2024/11/05 12:31:24 [notice] 35#35: exit
+2024/11/05 12:31:24 [notice] 39#39: exit
+2024/11/05 12:31:24 [notice] 37#37: exit
+2024/11/05 12:31:24 [notice] 40#40: exit
+2024/11/05 12:31:24 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2024/11/05 12:31:24 [notice] 1#1: worker process 38 exited with code 0
+2024/11/05 12:31:24 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/05 12:31:24 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/11/05 12:31:24 [notice] 1#1: worker process 30 exited with code 0
+2024/11/05 12:31:24 [notice] 1#1: worker process 34 exited with code 0
+2024/11/05 12:31:24 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/05 12:31:24 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2024/11/05 12:31:24 [notice] 1#1: worker process 29 exited with code 0
+2024/11/05 12:31:24 [notice] 1#1: worker process 32 exited with code 0
+2024/11/05 12:31:24 [notice] 1#1: worker process 35 exited with code 0
+2024/11/05 12:31:24 [notice] 1#1: worker process 36 exited with code 0
+2024/11/05 12:31:24 [notice] 1#1: worker process 40 exited with code 0
+2024/11/05 12:31:24 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/05 12:31:24 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/11/05 12:31:24 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/11/05 12:31:24 [notice] 1#1: worker process 31 exited with code 0
+2024/11/05 12:31:24 [notice] 1#1: worker process 33 exited with code 0
+2024/11/05 12:31:24 [notice] 1#1: worker process 37 exited with code 0
+2024/11/05 12:31:24 [notice] 1#1: worker process 39 exited with code 0
+2024/11/05 12:31:24 [notice] 1#1: exit
+2024/11/05 12:31:36 [notice] 1#1: using the "epoll" event method
+2024/11/05 12:31:36 [notice] 1#1: nginx/1.27.2
+2024/11/05 12:31:36 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/11/05 12:31:36 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/11/05 12:31:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/11/05 12:31:36 [notice] 1#1: start worker processes
+2024/11/05 12:31:36 [notice] 1#1: start worker process 29
+2024/11/05 12:31:36 [notice] 1#1: start worker process 30
+2024/11/05 12:31:36 [notice] 1#1: start worker process 31
+2024/11/05 12:31:36 [notice] 1#1: start worker process 32
+2024/11/05 12:31:36 [notice] 1#1: start worker process 33
+2024/11/05 12:31:36 [notice] 1#1: start worker process 34
+2024/11/05 12:31:36 [notice] 1#1: start worker process 35
+2024/11/05 12:31:36 [notice] 1#1: start worker process 36
+2024/11/05 12:31:36 [notice] 1#1: start worker process 37
+2024/11/05 12:31:36 [notice] 1#1: start worker process 38
+2024/11/05 12:31:36 [notice] 1#1: start worker process 39
+2024/11/05 12:31:36 [notice] 1#1: start worker process 40
+2024/11/05 12:31:46 [error] 29#29: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:32:40 [error] 30#30: *4 open() "/var/www/html/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:32:40 [error] 31#31: *6 open() "/var/www/html/Burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /Burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:33:58 [error] 32#32: *7 open() "/var/www/html/css/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:33:58 [error] 33#33: *9 open() "/var/www/html/Burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /Burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:33:59 [error] 33#33: *9 open() "/var/www/html/css/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:33:59 [error] 32#32: *7 open() "/var/www/html/Burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /Burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:34:00 [error] 32#32: *7 open() "/var/www/html/css/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:34:00 [error] 33#33: *9 open() "/var/www/html/Burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /Burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:34:32 [error] 34#34: *12 open() "/var/www/html/css/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:34:32 [error] 35#35: *14 open() "/var/www/html/Burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /Burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:34:32 [error] 35#35: *14 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:34:58 [error] 36#36: *15 open() "/var/www/html/css/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:34:58 [error] 37#37: *17 open() "/var/www/html/Burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /Burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:34:59 [error] 37#37: *17 open() "/var/www/html/css/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:34:59 [error] 36#36: *15 open() "/var/www/html/Burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /Burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:34:59 [error] 36#36: *15 open() "/var/www/html/css/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:34:59 [error] 37#37: *17 open() "/var/www/html/Burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /Burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:35:00 [error] 38#38: *20 open() "/var/www/html/css/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:35:00 [error] 39#39: *22 open() "/var/www/html/Burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /Burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:35:00 [error] 39#39: *22 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:35:01 [error] 38#38: *20 open() "/var/www/html/Burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /Burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:35:01 [error] 39#39: *22 open() "/var/www/html/css/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:35:01 [error] 38#38: *20 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:35:01 [error] 39#39: *22 open() "/var/www/html/Burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /Burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:35:01 [error] 38#38: *20 open() "/var/www/html/css/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:35:01 [error] 38#38: *20 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:35:01 [error] 38#38: *20 open() "/var/www/html/css/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:35:01 [error] 38#38: *20 open() "/var/www/html/Burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /Burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:35:01 [error] 38#38: *20 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:35:01 [error] 38#38: *20 open() "/var/www/html/css/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:35:01 [error] 39#39: *22 open() "/var/www/html/Burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /Burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:35:01 [error] 39#39: *22 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:36:12 [error] 40#40: *27 open() "/var/www/html/css/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:36:12 [error] 40#40: *27 open() "/var/www/html/css/burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:36:13 [error] 40#40: *27 open() "/var/www/html/css/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:36:13 [error] 29#29: *30 open() "/var/www/html/css/burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:36:13 [error] 29#29: *30 open() "/var/www/html/css/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:36:13 [error] 40#40: *27 open() "/var/www/html/css/burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:36:13 [error] 29#29: *30 open() "/var/www/html/css/burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:36:13 [error] 40#40: *27 open() "/var/www/html/css/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:36:14 [error] 29#29: *30 open() "/var/www/html/css/burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:36:14 [error] 40#40: *27 open() "/var/www/html/css/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:36:14 [error] 29#29: *30 open() "/var/www/html/css/burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:36:14 [error] 40#40: *27 open() "/var/www/html/css/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:36:14 [error] 40#40: *27 open() "/var/www/html/css/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:36:14 [error] 29#29: *30 open() "/var/www/html/css/burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:36:19 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/11/05 12:36:19 [notice] 29#29: gracefully shutting down
+2024/11/05 12:36:19 [notice] 38#38: gracefully shutting down
+2024/11/05 12:36:19 [notice] 30#30: gracefully shutting down
+2024/11/05 12:36:19 [notice] 31#31: gracefully shutting down
+2024/11/05 12:36:19 [notice] 32#32: gracefully shutting down
+2024/11/05 12:36:19 [notice] 33#33: gracefully shutting down
+2024/11/05 12:36:19 [notice] 34#34: gracefully shutting down
+2024/11/05 12:36:19 [notice] 36#36: gracefully shutting down
+2024/11/05 12:36:19 [notice] 37#37: gracefully shutting down
+2024/11/05 12:36:19 [notice] 39#39: gracefully shutting down
+2024/11/05 12:36:19 [notice] 39#39: exiting
+2024/11/05 12:36:19 [notice] 35#35: gracefully shutting down
+2024/11/05 12:36:19 [notice] 35#35: exiting
+2024/11/05 12:36:19 [notice] 40#40: gracefully shutting down
+2024/11/05 12:36:19 [notice] 29#29: exiting
+2024/11/05 12:36:19 [notice] 38#38: exiting
+2024/11/05 12:36:19 [notice] 30#30: exiting
+2024/11/05 12:36:19 [notice] 31#31: exiting
+2024/11/05 12:36:19 [notice] 32#32: exiting
+2024/11/05 12:36:19 [notice] 33#33: exiting
+2024/11/05 12:36:19 [notice] 34#34: exiting
+2024/11/05 12:36:19 [notice] 36#36: exiting
+2024/11/05 12:36:19 [notice] 37#37: exiting
+2024/11/05 12:36:19 [notice] 39#39: exit
+2024/11/05 12:36:19 [notice] 35#35: exit
+2024/11/05 12:36:19 [notice] 40#40: exiting
+2024/11/05 12:36:19 [notice] 29#29: exit
+2024/11/05 12:36:19 [notice] 38#38: exit
+2024/11/05 12:36:19 [notice] 30#30: exit
+2024/11/05 12:36:19 [notice] 31#31: exit
+2024/11/05 12:36:19 [notice] 32#32: exit
+2024/11/05 12:36:19 [notice] 33#33: exit
+2024/11/05 12:36:19 [notice] 34#34: exit
+2024/11/05 12:36:19 [notice] 36#36: exit
+2024/11/05 12:36:19 [notice] 37#37: exit
+2024/11/05 12:36:19 [notice] 40#40: exit
+2024/11/05 12:36:19 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/11/05 12:36:19 [notice] 1#1: worker process 31 exited with code 0
+2024/11/05 12:36:19 [notice] 1#1: worker process 33 exited with code 0
+2024/11/05 12:36:19 [notice] 1#1: worker process 35 exited with code 0
+2024/11/05 12:36:19 [notice] 1#1: worker process 38 exited with code 0
+2024/11/05 12:36:19 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/05 12:36:19 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/11/05 12:36:19 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2024/11/05 12:36:19 [notice] 1#1: worker process 39 exited with code 0
+2024/11/05 12:36:19 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/05 12:36:19 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2024/11/05 12:36:19 [notice] 1#1: worker process 29 exited with code 0
+2024/11/05 12:36:19 [notice] 1#1: worker process 30 exited with code 0
+2024/11/05 12:36:19 [notice] 1#1: worker process 32 exited with code 0
+2024/11/05 12:36:19 [notice] 1#1: worker process 34 exited with code 0
+2024/11/05 12:36:19 [notice] 1#1: worker process 36 exited with code 0
+2024/11/05 12:36:19 [notice] 1#1: worker process 37 exited with code 0
+2024/11/05 12:36:19 [notice] 1#1: worker process 40 exited with code 0
+2024/11/05 12:36:19 [notice] 1#1: exit
+2024/11/05 12:36:30 [notice] 1#1: using the "epoll" event method
+2024/11/05 12:36:30 [notice] 1#1: nginx/1.27.2
+2024/11/05 12:36:30 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/11/05 12:36:30 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/11/05 12:36:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/11/05 12:36:30 [notice] 1#1: start worker processes
+2024/11/05 12:36:30 [notice] 1#1: start worker process 29
+2024/11/05 12:36:30 [notice] 1#1: start worker process 30
+2024/11/05 12:36:30 [notice] 1#1: start worker process 31
+2024/11/05 12:36:30 [notice] 1#1: start worker process 32
+2024/11/05 12:36:30 [notice] 1#1: start worker process 33
+2024/11/05 12:36:30 [notice] 1#1: start worker process 34
+2024/11/05 12:36:30 [notice] 1#1: start worker process 35
+2024/11/05 12:36:30 [notice] 1#1: start worker process 36
+2024/11/05 12:36:30 [notice] 1#1: start worker process 37
+2024/11/05 12:36:30 [notice] 1#1: start worker process 38
+2024/11/05 12:36:30 [notice] 1#1: start worker process 39
+2024/11/05 12:36:30 [notice] 1#1: start worker process 40
+2024/11/05 12:36:36 [error] 29#29: *1 open() "/var/www/html/css/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:36:36 [error] 30#30: *3 open() "/var/www/html/css/burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:37:22 [error] 31#31: *4 open() "/var/www/html/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:37:22 [error] 32#32: *6 open() "/var/www/html/css/burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:37:22 [error] 32#32: *6 open() "/var/www/html/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:37:22 [error] 31#31: *4 open() "/var/www/html/css/burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:37:27 [error] 31#31: *4 open() "/var/www/html/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:37:27 [error] 32#32: *6 open() "/var/www/html/css/burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:37:27 [error] 31#31: *4 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:38:07 [error] 33#33: *9 open() "/var/www/html/css/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:38:07 [error] 34#34: *11 open() "/var/www/html/css/burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:38:07 [error] 34#34: *11 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:38:22 [error] 35#35: *12 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:38:32 [error] 36#36: *13 open() "/var/www/html/css/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/styles.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:38:32 [error] 37#37: *14 open() "/var/www/html/css/burger.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/burger.css HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:38:52 [error] 39#39: *17 open() "/var/www/html/css/styles.css" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /css/styles.css HTTP/1.1", host: "localhost:8081"
+2024/11/05 12:39:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/11/05 12:39:04 [notice] 30#30: gracefully shutting down
+2024/11/05 12:39:04 [notice] 31#31: gracefully shutting down
+2024/11/05 12:39:04 [notice] 35#35: gracefully shutting down
+2024/11/05 12:39:04 [notice] 29#29: gracefully shutting down
+2024/11/05 12:39:04 [notice] 33#33: gracefully shutting down
+2024/11/05 12:39:04 [notice] 34#34: gracefully shutting down
+2024/11/05 12:39:04 [notice] 37#37: gracefully shutting down
+2024/11/05 12:39:04 [notice] 38#38: gracefully shutting down
+2024/11/05 12:39:04 [notice] 39#39: gracefully shutting down
+2024/11/05 12:39:04 [notice] 36#36: gracefully shutting down
+2024/11/05 12:39:04 [notice] 32#32: gracefully shutting down
+2024/11/05 12:39:04 [notice] 40#40: gracefully shutting down
+2024/11/05 12:39:04 [notice] 30#30: exiting
+2024/11/05 12:39:04 [notice] 31#31: exiting
+2024/11/05 12:39:04 [notice] 35#35: exiting
+2024/11/05 12:39:04 [notice] 29#29: exiting
+2024/11/05 12:39:04 [notice] 33#33: exiting
+2024/11/05 12:39:04 [notice] 34#34: exiting
+2024/11/05 12:39:04 [notice] 37#37: exiting
+2024/11/05 12:39:04 [notice] 38#38: exiting
+2024/11/05 12:39:04 [notice] 39#39: exiting
+2024/11/05 12:39:04 [notice] 36#36: exiting
+2024/11/05 12:39:04 [notice] 32#32: exiting
+2024/11/05 12:39:04 [notice] 40#40: exiting
+2024/11/05 12:39:04 [notice] 30#30: exit
+2024/11/05 12:39:04 [notice] 31#31: exit
+2024/11/05 12:39:04 [notice] 35#35: exit
+2024/11/05 12:39:04 [notice] 29#29: exit
+2024/11/05 12:39:04 [notice] 33#33: exit
+2024/11/05 12:39:04 [notice] 34#34: exit
+2024/11/05 12:39:04 [notice] 37#37: exit
+2024/11/05 12:39:04 [notice] 38#38: exit
+2024/11/05 12:39:04 [notice] 39#39: exit
+2024/11/05 12:39:04 [notice] 36#36: exit
+2024/11/05 12:39:04 [notice] 32#32: exit
+2024/11/05 12:39:04 [notice] 40#40: exit
+2024/11/05 12:39:04 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2024/11/05 12:39:04 [notice] 1#1: worker process 29 exited with code 0
+2024/11/05 12:39:04 [notice] 1#1: worker process 30 exited with code 0
+2024/11/05 12:39:04 [notice] 1#1: worker process 31 exited with code 0
+2024/11/05 12:39:04 [notice] 1#1: worker process 32 exited with code 0
+2024/11/05 12:39:04 [notice] 1#1: worker process 33 exited with code 0
+2024/11/05 12:39:04 [notice] 1#1: worker process 35 exited with code 0
+2024/11/05 12:39:04 [notice] 1#1: worker process 36 exited with code 0
+2024/11/05 12:39:04 [notice] 1#1: worker process 37 exited with code 0
+2024/11/05 12:39:04 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/05 12:39:04 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/11/05 12:39:04 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2024/11/05 12:39:04 [notice] 1#1: worker process 34 exited with code 0
+2024/11/05 12:39:04 [notice] 1#1: worker process 39 exited with code 0
+2024/11/05 12:39:04 [notice] 1#1: worker process 40 exited with code 0
+2024/11/05 12:39:04 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/05 12:39:04 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/11/05 12:39:04 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2024/11/05 12:39:04 [notice] 1#1: worker process 38 exited with code 0
+2024/11/05 12:39:04 [notice] 1#1: exit
+2024/11/05 12:39:31 [notice] 1#1: using the "epoll" event method
+2024/11/05 12:39:31 [notice] 1#1: nginx/1.27.2
+2024/11/05 12:39:31 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/11/05 12:39:31 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/11/05 12:39:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/11/05 12:39:31 [notice] 1#1: start worker processes
+2024/11/05 12:39:31 [notice] 1#1: start worker process 29
+2024/11/05 12:39:31 [notice] 1#1: start worker process 30
+2024/11/05 12:39:31 [notice] 1#1: start worker process 31
+2024/11/05 12:39:31 [notice] 1#1: start worker process 32
+2024/11/05 12:39:31 [notice] 1#1: start worker process 33
+2024/11/05 12:39:31 [notice] 1#1: start worker process 34
+2024/11/05 12:39:31 [notice] 1#1: start worker process 35
+2024/11/05 12:39:31 [notice] 1#1: start worker process 36
+2024/11/05 12:39:31 [notice] 1#1: start worker process 37
+2024/11/05 12:39:31 [notice] 1#1: start worker process 38
+2024/11/05 12:39:31 [notice] 1#1: start worker process 39
+2024/11/05 12:39:31 [notice] 1#1: start worker process 40
+2024/11/05 12:43:00 [error] 32#32: *7 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:46:39 [error] 38#38: *16 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 12:55:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/11/05 12:55:03 [notice] 31#31: gracefully shutting down
+2024/11/05 12:55:03 [notice] 33#33: gracefully shutting down
+2024/11/05 12:55:03 [notice] 32#32: gracefully shutting down
+2024/11/05 12:55:03 [notice] 34#34: gracefully shutting down
+2024/11/05 12:55:03 [notice] 35#35: gracefully shutting down
+2024/11/05 12:55:03 [notice] 29#29: gracefully shutting down
+2024/11/05 12:55:03 [notice] 30#30: gracefully shutting down
+2024/11/05 12:55:03 [notice] 29#29: exiting
+2024/11/05 12:55:03 [notice] 36#36: gracefully shutting down
+2024/11/05 12:55:03 [notice] 37#37: gracefully shutting down
+2024/11/05 12:55:03 [notice] 38#38: gracefully shutting down
+2024/11/05 12:55:03 [notice] 40#40: gracefully shutting down
+2024/11/05 12:55:03 [notice] 39#39: gracefully shutting down
+2024/11/05 12:55:03 [notice] 33#33: exiting
+2024/11/05 12:55:03 [notice] 32#32: exiting
+2024/11/05 12:55:03 [notice] 34#34: exiting
+2024/11/05 12:55:03 [notice] 31#31: exiting
+2024/11/05 12:55:03 [notice] 35#35: exiting
+2024/11/05 12:55:03 [notice] 30#30: exiting
+2024/11/05 12:55:03 [notice] 29#29: exit
+2024/11/05 12:55:03 [notice] 36#36: exiting
+2024/11/05 12:55:03 [notice] 38#38: exiting
+2024/11/05 12:55:03 [notice] 37#37: exiting
+2024/11/05 12:55:03 [notice] 40#40: exiting
+2024/11/05 12:55:03 [notice] 33#33: exit
+2024/11/05 12:55:03 [notice] 39#39: exiting
+2024/11/05 12:55:03 [notice] 32#32: exit
+2024/11/05 12:55:03 [notice] 34#34: exit
+2024/11/05 12:55:03 [notice] 31#31: exit
+2024/11/05 12:55:03 [notice] 35#35: exit
+2024/11/05 12:55:03 [notice] 30#30: exit
+2024/11/05 12:55:03 [notice] 36#36: exit
+2024/11/05 12:55:03 [notice] 38#38: exit
+2024/11/05 12:55:03 [notice] 37#37: exit
+2024/11/05 12:55:03 [notice] 40#40: exit
+2024/11/05 12:55:03 [notice] 39#39: exit
+2024/11/05 12:55:03 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/11/05 12:55:03 [notice] 1#1: worker process 29 exited with code 0
+2024/11/05 12:55:03 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/05 12:55:03 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/11/05 12:55:03 [notice] 1#1: worker process 30 exited with code 0
+2024/11/05 12:55:03 [notice] 1#1: worker process 31 exited with code 0
+2024/11/05 12:55:03 [notice] 1#1: worker process 32 exited with code 0
+2024/11/05 12:55:03 [notice] 1#1: worker process 33 exited with code 0
+2024/11/05 12:55:03 [notice] 1#1: worker process 34 exited with code 0
+2024/11/05 12:55:03 [notice] 1#1: worker process 35 exited with code 0
+2024/11/05 12:55:03 [notice] 1#1: worker process 36 exited with code 0
+2024/11/05 12:55:03 [notice] 1#1: worker process 38 exited with code 0
+2024/11/05 12:55:03 [notice] 1#1: worker process 39 exited with code 0
+2024/11/05 12:55:03 [notice] 1#1: worker process 40 exited with code 0
+2024/11/05 12:55:03 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/05 12:55:03 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/11/05 12:55:03 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2024/11/05 12:55:03 [notice] 1#1: worker process 37 exited with code 0
+2024/11/05 12:55:03 [notice] 1#1: exit
+2024/11/05 13:04:05 [notice] 1#1: using the "epoll" event method
+2024/11/05 13:04:05 [notice] 1#1: nginx/1.27.2
+2024/11/05 13:04:05 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/11/05 13:04:05 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/11/05 13:04:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/11/05 13:04:05 [notice] 1#1: start worker processes
+2024/11/05 13:04:05 [notice] 1#1: start worker process 29
+2024/11/05 13:04:05 [notice] 1#1: start worker process 30
+2024/11/05 13:04:05 [notice] 1#1: start worker process 31
+2024/11/05 13:04:05 [notice] 1#1: start worker process 32
+2024/11/05 13:04:05 [notice] 1#1: start worker process 33
+2024/11/05 13:04:05 [notice] 1#1: start worker process 34
+2024/11/05 13:04:05 [notice] 1#1: start worker process 35
+2024/11/05 13:04:05 [notice] 1#1: start worker process 36
+2024/11/05 13:04:05 [notice] 1#1: start worker process 37
+2024/11/05 13:04:05 [notice] 1#1: start worker process 38
+2024/11/05 13:04:05 [notice] 1#1: start worker process 39
+2024/11/05 13:04:05 [notice] 1#1: start worker process 40
+2024/11/05 13:04:16 [error] 29#29: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 13:04:30 [error] 32#32: *6 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 14:09:34 [notice] 1#1: using the "epoll" event method
+2024/11/05 14:09:34 [notice] 1#1: nginx/1.27.2
+2024/11/05 14:09:34 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/11/05 14:09:34 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/11/05 14:09:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/11/05 14:09:34 [notice] 1#1: start worker processes
+2024/11/05 14:09:34 [notice] 1#1: start worker process 29
+2024/11/05 14:09:34 [notice] 1#1: start worker process 30
+2024/11/05 14:09:34 [notice] 1#1: start worker process 31
+2024/11/05 14:09:34 [notice] 1#1: start worker process 32
+2024/11/05 14:09:34 [notice] 1#1: start worker process 33
+2024/11/05 14:09:34 [notice] 1#1: start worker process 34
+2024/11/05 14:09:34 [notice] 1#1: start worker process 35
+2024/11/05 14:09:34 [notice] 1#1: start worker process 36
+2024/11/05 14:09:34 [notice] 1#1: start worker process 37
+2024/11/05 14:09:34 [notice] 1#1: start worker process 38
+2024/11/05 14:09:34 [notice] 1#1: start worker process 39
+2024/11/05 14:09:34 [notice] 1#1: start worker process 40
+2024/11/05 14:09:35 [error] 30#30: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/05 14:11:50 [error] 32#32: *7 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/index.php"
+2024/11/05 14:17:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/11/05 14:17:34 [notice] 29#29: gracefully shutting down
+2024/11/05 14:17:34 [notice] 36#36: gracefully shutting down
+2024/11/05 14:17:34 [notice] 31#31: gracefully shutting down
+2024/11/05 14:17:34 [notice] 33#33: gracefully shutting down
+2024/11/05 14:17:34 [notice] 30#30: gracefully shutting down
+2024/11/05 14:17:34 [notice] 32#32: gracefully shutting down
+2024/11/05 14:17:34 [notice] 35#35: gracefully shutting down
+2024/11/05 14:17:34 [notice] 34#34: gracefully shutting down
+2024/11/05 14:17:34 [notice] 38#38: gracefully shutting down
+2024/11/05 14:17:34 [notice] 37#37: gracefully shutting down
+2024/11/05 14:17:34 [notice] 39#39: gracefully shutting down
+2024/11/05 14:17:34 [notice] 29#29: exiting
+2024/11/05 14:17:34 [notice] 40#40: gracefully shutting down
+2024/11/05 14:17:34 [notice] 36#36: exiting
+2024/11/05 14:17:34 [notice] 31#31: exiting
+2024/11/05 14:17:34 [notice] 33#33: exiting
+2024/11/05 14:17:34 [notice] 30#30: exiting
+2024/11/05 14:17:34 [notice] 32#32: exiting
+2024/11/05 14:17:34 [notice] 35#35: exiting
+2024/11/05 14:17:34 [notice] 34#34: exiting
+2024/11/05 14:17:34 [notice] 38#38: exiting
+2024/11/05 14:17:34 [notice] 34#34: exit
+2024/11/05 14:17:34 [notice] 37#37: exiting
+2024/11/05 14:17:34 [notice] 39#39: exiting
+2024/11/05 14:17:34 [notice] 29#29: exit
+2024/11/05 14:17:34 [notice] 36#36: exit
+2024/11/05 14:17:34 [notice] 40#40: exiting
+2024/11/05 14:17:34 [notice] 31#31: exit
+2024/11/05 14:17:34 [notice] 33#33: exit
+2024/11/05 14:17:34 [notice] 30#30: exit
+2024/11/05 14:17:34 [notice] 32#32: exit
+2024/11/05 14:17:34 [notice] 35#35: exit
+2024/11/05 14:17:34 [notice] 38#38: exit
+2024/11/05 14:17:34 [notice] 37#37: exit
+2024/11/05 14:17:34 [notice] 39#39: exit
+2024/11/05 14:17:34 [notice] 40#40: exit
+2024/11/05 14:17:34 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/11/05 14:17:34 [notice] 1#1: worker process 34 exited with code 0
+2024/11/05 14:17:34 [notice] 1#1: worker process 35 exited with code 0
+2024/11/05 14:17:34 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/05 14:17:34 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/11/05 14:17:34 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/11/05 14:17:34 [notice] 1#1: worker process 29 exited with code 0
+2024/11/05 14:17:34 [notice] 1#1: worker process 32 exited with code 0
+2024/11/05 14:17:34 [notice] 1#1: worker process 33 exited with code 0
+2024/11/05 14:17:34 [notice] 1#1: worker process 37 exited with code 0
+2024/11/05 14:17:34 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/05 14:17:34 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/11/05 14:17:34 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2024/11/05 14:17:34 [notice] 1#1: worker process 30 exited with code 0
+2024/11/05 14:17:34 [notice] 1#1: worker process 39 exited with code 0
+2024/11/05 14:17:34 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/05 14:17:34 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2024/11/05 14:17:34 [notice] 1#1: worker process 36 exited with code 0
+2024/11/05 14:17:34 [notice] 1#1: worker process 40 exited with code 0
+2024/11/05 14:17:34 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/05 14:17:34 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2024/11/05 14:17:34 [notice] 1#1: worker process 31 exited with code 0
+2024/11/05 14:17:34 [notice] 1#1: worker process 38 exited with code 0
+2024/11/05 14:17:34 [notice] 1#1: exit
+2024/11/05 14:17:41 [notice] 1#1: using the "epoll" event method
+2024/11/05 14:17:41 [notice] 1#1: nginx/1.27.2
+2024/11/05 14:17:41 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/11/05 14:17:41 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/11/05 14:17:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/11/05 14:17:41 [notice] 1#1: start worker processes
+2024/11/05 14:17:41 [notice] 1#1: start worker process 29
+2024/11/05 14:17:41 [notice] 1#1: start worker process 30
+2024/11/05 14:17:41 [notice] 1#1: start worker process 31
+2024/11/05 14:17:41 [notice] 1#1: start worker process 32
+2024/11/05 14:17:41 [notice] 1#1: start worker process 33
+2024/11/05 14:17:41 [notice] 1#1: start worker process 34
+2024/11/05 14:17:41 [notice] 1#1: start worker process 35
+2024/11/05 14:17:41 [notice] 1#1: start worker process 36
+2024/11/05 14:17:41 [notice] 1#1: start worker process 37
+2024/11/05 14:17:41 [notice] 1#1: start worker process 38
+2024/11/05 14:17:41 [notice] 1#1: start worker process 39
+2024/11/05 14:17:41 [notice] 1#1: start worker process 40
+2024/11/05 14:22:31 [error] 29#29: *23 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/index.php"
+2024/11/05 14:23:22 [error] 31#31: *29 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/index.php"
+2024/11/05 14:23:53 [error] 29#29: *33 open() "/var/www/html/Billeder/sol.jpg" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /Billeder/sol.jpg HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/billede.php"
+2024/11/05 14:23:53 [error] 30#30: *36 open() "/var/www/html/Billeder/supra.webp" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /Billeder/supra.webp HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/billede.php"
+2024/11/05 14:25:03 [error] 33#33: *42 open() "/var/www/html/Billeder/supra.webp" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /Billeder/supra.webp HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/billede.php"
+2024/11/05 14:25:03 [error] 33#33: *41 open() "/var/www/html/Billeder/sol.jpg" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /Billeder/sol.jpg HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/billede.php"
+2024/11/05 14:25:03 [error] 31#31: *40 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/billede.php"
+2024/11/05 14:25:37 [error] 33#33: *48 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/billede.php"
+2024/11/06 08:04:36 [error] 31#31: *61 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/index.php"
+2024/11/06 08:04:57 [error] 30#30: *74 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/index.php"
+2024/11/06 08:05:15 [error] 31#31: *80 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/index.php"
+2024/11/06 08:23:34 [error] 31#31: *93 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/maps.php"
+2024/11/06 08:24:45 [error] 32#32: *97 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/maps.php"
+2024/11/06 08:25:43 [error] 31#31: *100 open() "/var/www/html/<iframe src=" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /%3Ciframe%20src= HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/maps.php"
+2024/11/06 08:25:43 [error] 32#32: *101 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/maps.php"
+2024/11/06 08:26:17 [error] 32#32: *105 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/maps.php"
+2024/11/06 08:27:00 [error] 32#32: *109 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/maps.php"
+2024/11/06 08:29:05 [error] 30#30: *110 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/maps.php"
+2024/11/06 09:10:21 [error] 33#33: *120 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/studietur.php"
+2024/11/06 09:11:03 [error] 33#33: *128 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/index.php"
+2024/11/06 12:43:45 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/11/06 12:43:45 [notice] 33#33: gracefully shutting down
+2024/11/06 12:43:45 [notice] 31#31: gracefully shutting down
+2024/11/06 12:43:45 [notice] 32#32: gracefully shutting down
+2024/11/06 12:43:45 [notice] 35#35: gracefully shutting down
+2024/11/06 12:43:45 [notice] 34#34: gracefully shutting down
+2024/11/06 12:43:45 [notice] 30#30: gracefully shutting down
+2024/11/06 12:43:45 [notice] 29#29: gracefully shutting down
+2024/11/06 12:43:45 [notice] 37#37: gracefully shutting down
+2024/11/06 12:43:45 [notice] 40#40: gracefully shutting down
+2024/11/06 12:43:45 [notice] 36#36: gracefully shutting down
+2024/11/06 12:43:45 [notice] 33#33: exiting
+2024/11/06 12:43:45 [notice] 38#38: gracefully shutting down
+2024/11/06 12:43:45 [notice] 39#39: gracefully shutting down
+2024/11/06 12:43:45 [notice] 31#31: exiting
+2024/11/06 12:43:45 [notice] 32#32: exiting
+2024/11/06 12:43:45 [notice] 30#30: exiting
+2024/11/06 12:43:45 [notice] 37#37: exiting
+2024/11/06 12:43:45 [notice] 35#35: exiting
+2024/11/06 12:43:45 [notice] 34#34: exiting
+2024/11/06 12:43:45 [notice] 29#29: exiting
+2024/11/06 12:43:45 [notice] 40#40: exiting
+2024/11/06 12:43:45 [notice] 38#38: exiting
+2024/11/06 12:43:45 [notice] 36#36: exiting
+2024/11/06 12:43:45 [notice] 37#37: exit
+2024/11/06 12:43:45 [notice] 35#35: exit
+2024/11/06 12:43:45 [notice] 32#32: exit
+2024/11/06 12:43:45 [notice] 34#34: exit
+2024/11/06 12:43:45 [notice] 38#38: exit
+2024/11/06 12:43:45 [notice] 29#29: exit
+2024/11/06 12:43:45 [notice] 40#40: exit
+2024/11/06 12:43:45 [notice] 31#31: exit
+2024/11/06 12:43:45 [notice] 39#39: exiting
+2024/11/06 12:43:45 [notice] 33#33: exit
+2024/11/06 12:43:45 [notice] 30#30: exit
+2024/11/06 12:43:45 [notice] 39#39: exit
+2024/11/06 12:43:45 [notice] 36#36: exit
+2024/11/06 12:43:45 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/11/06 12:43:45 [notice] 1#1: worker process 34 exited with code 0
+2024/11/06 12:43:45 [notice] 1#1: worker process 36 exited with code 0
+2024/11/06 12:43:45 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/06 12:43:45 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2024/11/06 12:43:45 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/11/06 12:43:45 [notice] 1#1: worker process 29 exited with code 0
+2024/11/06 12:43:45 [notice] 1#1: worker process 33 exited with code 0
+2024/11/06 12:43:45 [notice] 1#1: worker process 37 exited with code 0
+2024/11/06 12:43:45 [notice] 1#1: worker process 38 exited with code 0
+2024/11/06 12:43:45 [notice] 1#1: worker process 40 exited with code 0
+2024/11/06 12:43:45 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/06 12:43:45 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2024/11/06 12:43:45 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2024/11/06 12:43:45 [notice] 1#1: worker process 31 exited with code 0
+2024/11/06 12:43:45 [notice] 1#1: worker process 32 exited with code 0
+2024/11/06 12:43:45 [notice] 1#1: worker process 39 exited with code 0
+2024/11/06 12:43:45 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/06 12:43:45 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/11/06 12:43:45 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/11/06 12:43:45 [notice] 1#1: worker process 30 exited with code 0
+2024/11/06 12:43:45 [notice] 1#1: worker process 35 exited with code 0
+2024/11/06 12:43:45 [notice] 1#1: exit
+2024/11/06 12:43:56 [notice] 1#1: using the "epoll" event method
+2024/11/06 12:43:56 [notice] 1#1: nginx/1.27.2
+2024/11/06 12:43:56 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/11/06 12:43:56 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/11/06 12:43:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/11/06 12:43:56 [notice] 1#1: start worker processes
+2024/11/06 12:43:56 [notice] 1#1: start worker process 29
+2024/11/06 12:43:56 [notice] 1#1: start worker process 30
+2024/11/06 12:43:56 [notice] 1#1: start worker process 31
+2024/11/06 12:43:56 [notice] 1#1: start worker process 32
+2024/11/06 12:43:56 [notice] 1#1: start worker process 33
+2024/11/06 12:43:56 [notice] 1#1: start worker process 34
+2024/11/06 12:43:56 [notice] 1#1: start worker process 35
+2024/11/06 12:43:56 [notice] 1#1: start worker process 36
+2024/11/06 12:43:56 [notice] 1#1: start worker process 37
+2024/11/06 12:43:56 [notice] 1#1: start worker process 38
+2024/11/06 12:43:56 [notice] 1#1: start worker process 39
+2024/11/06 12:43:56 [notice] 1#1: start worker process 40
+2024/11/06 13:24:52 [error] 35#35: *16 directory index of "/var/www/html/ovelser/" is forbidden, client: 172.19.0.1, server: , request: "GET /ovelser/ HTTP/1.1", host: "localhost:8081"
+2024/11/07 07:21:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/11/07 07:21:05 [notice] 30#30: gracefully shutting down
+2024/11/07 07:21:05 [notice] 35#35: gracefully shutting down
+2024/11/07 07:21:05 [notice] 31#31: gracefully shutting down
+2024/11/07 07:21:05 [notice] 32#32: gracefully shutting down
+2024/11/07 07:21:05 [notice] 33#33: gracefully shutting down
+2024/11/07 07:21:05 [notice] 34#34: gracefully shutting down
+2024/11/07 07:21:05 [notice] 40#40: gracefully shutting down
+2024/11/07 07:21:05 [notice] 37#37: gracefully shutting down
+2024/11/07 07:21:05 [notice] 39#39: gracefully shutting down
+2024/11/07 07:21:05 [notice] 36#36: gracefully shutting down
+2024/11/07 07:21:05 [notice] 38#38: gracefully shutting down
+2024/11/07 07:21:05 [notice] 30#30: exiting
+2024/11/07 07:21:05 [notice] 29#29: gracefully shutting down
+2024/11/07 07:21:05 [notice] 35#35: exiting
+2024/11/07 07:21:05 [notice] 33#33: exiting
+2024/11/07 07:21:05 [notice] 39#39: exiting
+2024/11/07 07:21:05 [notice] 31#31: exiting
+2024/11/07 07:21:05 [notice] 32#32: exiting
+2024/11/07 07:21:05 [notice] 40#40: exiting
+2024/11/07 07:21:05 [notice] 34#34: exiting
+2024/11/07 07:21:05 [notice] 37#37: exiting
+2024/11/07 07:21:05 [notice] 36#36: exiting
+2024/11/07 07:21:05 [notice] 38#38: exiting
+2024/11/07 07:21:05 [notice] 34#34: exit
+2024/11/07 07:21:05 [notice] 29#29: exiting
+2024/11/07 07:21:05 [notice] 33#33: exit
+2024/11/07 07:21:05 [notice] 40#40: exit
+2024/11/07 07:21:05 [notice] 39#39: exit
+2024/11/07 07:21:05 [notice] 30#30: exit
+2024/11/07 07:21:05 [notice] 31#31: exit
+2024/11/07 07:21:05 [notice] 37#37: exit
+2024/11/07 07:21:05 [notice] 32#32: exit
+2024/11/07 07:21:05 [notice] 35#35: exit
+2024/11/07 07:21:05 [notice] 36#36: exit
+2024/11/07 07:21:05 [notice] 38#38: exit
+2024/11/07 07:21:05 [notice] 29#29: exit
+2024/11/07 07:21:05 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/11/07 07:21:05 [notice] 1#1: worker process 31 exited with code 0
+2024/11/07 07:21:05 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/07 07:21:05 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/11/07 07:21:05 [notice] 1#1: worker process 30 exited with code 0
+2024/11/07 07:21:05 [notice] 1#1: worker process 32 exited with code 0
+2024/11/07 07:21:05 [notice] 1#1: worker process 33 exited with code 0
+2024/11/07 07:21:05 [notice] 1#1: worker process 36 exited with code 0
+2024/11/07 07:21:05 [notice] 1#1: worker process 37 exited with code 0
+2024/11/07 07:21:05 [notice] 1#1: worker process 38 exited with code 0
+2024/11/07 07:21:05 [notice] 1#1: worker process 39 exited with code 0
+2024/11/07 07:21:05 [notice] 1#1: worker process 40 exited with code 0
+2024/11/07 07:21:05 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/07 07:21:05 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/11/07 07:21:05 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/11/07 07:21:05 [notice] 1#1: worker process 29 exited with code 0
+2024/11/07 07:21:05 [notice] 1#1: worker process 35 exited with code 0
+2024/11/07 07:21:05 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/07 07:21:05 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/11/07 07:21:05 [notice] 1#1: worker process 34 exited with code 0
+2024/11/07 07:21:05 [notice] 1#1: exit
+2024/11/11 09:51:50 [notice] 1#1: using the "epoll" event method
+2024/11/11 09:51:50 [notice] 1#1: nginx/1.27.2
+2024/11/11 09:51:50 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/11/11 09:51:50 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/11/11 09:51:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/11/11 09:51:50 [notice] 1#1: start worker processes
+2024/11/11 09:51:50 [notice] 1#1: start worker process 29
+2024/11/11 09:51:50 [notice] 1#1: start worker process 30
+2024/11/11 09:51:50 [notice] 1#1: start worker process 31
+2024/11/11 09:51:50 [notice] 1#1: start worker process 32
+2024/11/11 09:51:50 [notice] 1#1: start worker process 33
+2024/11/11 09:51:50 [notice] 1#1: start worker process 34
+2024/11/11 09:51:50 [notice] 1#1: start worker process 35
+2024/11/11 09:51:50 [notice] 1#1: start worker process 36
+2024/11/11 09:51:50 [notice] 1#1: start worker process 37
+2024/11/11 09:51:50 [notice] 1#1: start worker process 38
+2024/11/11 09:51:50 [notice] 1#1: start worker process 39
+2024/11/11 09:51:50 [notice] 1#1: start worker process 40
+2024/11/11 09:51:56 [error] 32#32: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/11 09:52:41 [error] 34#34: *8 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/ovelser/Cookie1.php"
+2024/11/11 09:52:48 [error] 35#35: *10 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/ovelser/Cookie1.php"
+2024/11/11 09:53:19 [error] 38#38: *16 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/ovelser/Cookie1.php"
+2024/11/11 09:58:07 [error] 39#39: *18 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/ovelser/Cookie1.php"
+2024/11/11 10:20:02 [error] 29#29: *27 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/ovelser/formKode.php"
+2024/11/11 10:21:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/11/11 10:21:05 [notice] 31#31: gracefully shutting down
+2024/11/11 10:21:06 [notice] 29#29: gracefully shutting down
+2024/11/11 10:21:06 [notice] 34#34: gracefully shutting down
+2024/11/11 10:21:06 [notice] 30#30: gracefully shutting down
+2024/11/11 10:21:06 [notice] 38#38: gracefully shutting down
+2024/11/11 10:21:06 [notice] 36#36: gracefully shutting down
+2024/11/11 10:21:06 [notice] 39#39: gracefully shutting down
+2024/11/11 10:21:06 [notice] 37#37: gracefully shutting down
+2024/11/11 10:21:06 [notice] 35#35: gracefully shutting down
+2024/11/11 10:21:06 [notice] 40#40: gracefully shutting down
+2024/11/11 10:21:06 [notice] 39#39: exiting
+2024/11/11 10:21:06 [notice] 33#33: gracefully shutting down
+2024/11/11 10:21:05 [notice] 31#31: exiting
+2024/11/11 10:21:06 [notice] 32#32: gracefully shutting down
+2024/11/11 10:21:06 [notice] 29#29: exiting
+2024/11/11 10:21:06 [notice] 34#34: exiting
+2024/11/11 10:21:06 [notice] 30#30: exiting
+2024/11/11 10:21:06 [notice] 29#29: exit
+2024/11/11 10:21:06 [notice] 36#36: exiting
+2024/11/11 10:21:06 [notice] 38#38: exiting
+2024/11/11 10:21:06 [notice] 35#35: exiting
+2024/11/11 10:21:06 [notice] 32#32: exiting
+2024/11/11 10:21:06 [notice] 37#37: exiting
+2024/11/11 10:21:06 [notice] 39#39: exit
+2024/11/11 10:21:06 [notice] 40#40: exiting
+2024/11/11 10:21:05 [notice] 31#31: exit
+2024/11/11 10:21:06 [notice] 33#33: exiting
+2024/11/11 10:21:06 [notice] 34#34: exit
+2024/11/11 10:21:06 [notice] 30#30: exit
+2024/11/11 10:21:06 [notice] 36#36: exit
+2024/11/11 10:21:06 [notice] 35#35: exit
+2024/11/11 10:21:06 [notice] 38#38: exit
+2024/11/11 10:21:06 [notice] 32#32: exit
+2024/11/11 10:21:06 [notice] 40#40: exit
+2024/11/11 10:21:06 [notice] 37#37: exit
+2024/11/11 10:21:06 [notice] 33#33: exit
+2024/11/11 10:21:06 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/11/11 10:21:06 [notice] 1#1: worker process 29 exited with code 0
+2024/11/11 10:21:06 [notice] 1#1: worker process 31 exited with code 0
+2024/11/11 10:21:06 [notice] 1#1: worker process 34 exited with code 0
+2024/11/11 10:21:06 [notice] 1#1: worker process 35 exited with code 0
+2024/11/11 10:21:06 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/11 10:21:06 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2024/11/11 10:21:06 [notice] 1#1: worker process 36 exited with code 0
+2024/11/11 10:21:06 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/11 10:21:06 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2024/11/11 10:21:06 [notice] 1#1: worker process 38 exited with code 0
+2024/11/11 10:21:06 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/11 10:21:06 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/11/11 10:21:06 [notice] 1#1: worker process 32 exited with code 0
+2024/11/11 10:21:06 [notice] 1#1: worker process 33 exited with code 0
+2024/11/11 10:21:06 [notice] 1#1: worker process 37 exited with code 0
+2024/11/11 10:21:06 [notice] 1#1: worker process 39 exited with code 0
+2024/11/11 10:21:06 [notice] 1#1: worker process 40 exited with code 0
+2024/11/11 10:21:06 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/11 10:21:06 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2024/11/11 10:21:06 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/11/11 10:21:06 [notice] 1#1: worker process 30 exited with code 0
+2024/11/11 10:21:06 [notice] 1#1: exit
+2024/11/11 10:21:17 [notice] 1#1: using the "epoll" event method
+2024/11/11 10:21:17 [notice] 1#1: nginx/1.27.2
+2024/11/11 10:21:17 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/11/11 10:21:17 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/11/11 10:21:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/11/11 10:21:17 [notice] 1#1: start worker processes
+2024/11/11 10:21:17 [notice] 1#1: start worker process 29
+2024/11/11 10:21:17 [notice] 1#1: start worker process 30
+2024/11/11 10:21:17 [notice] 1#1: start worker process 31
+2024/11/11 10:21:17 [notice] 1#1: start worker process 32
+2024/11/11 10:21:17 [notice] 1#1: start worker process 33
+2024/11/11 10:21:17 [notice] 1#1: start worker process 34
+2024/11/11 10:21:17 [notice] 1#1: start worker process 35
+2024/11/11 10:21:17 [notice] 1#1: start worker process 36
+2024/11/11 10:21:17 [notice] 1#1: start worker process 37
+2024/11/11 10:21:17 [notice] 1#1: start worker process 38
+2024/11/11 10:21:17 [notice] 1#1: start worker process 39
+2024/11/11 10:21:17 [notice] 1#1: start worker process 40
+2024/11/11 11:43:45 [error] 40#40: *51 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/ovelser/cookie2.php"
+2024/11/11 11:51:55 [error] 29#29: *70 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/ovelser/cookie2.php"
+2024/11/11 11:52:09 [error] 29#29: *70 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/ovelser/formcookie.html"
+2024/11/12 13:34:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/11/12 13:34:05 [notice] 29#29: gracefully shutting down
+2024/11/12 13:34:05 [notice] 35#35: gracefully shutting down
+2024/11/12 13:34:05 [notice] 32#32: gracefully shutting down
+2024/11/12 13:34:05 [notice] 31#31: gracefully shutting down
+2024/11/12 13:34:05 [notice] 33#33: gracefully shutting down
+2024/11/12 13:34:05 [notice] 36#36: gracefully shutting down
+2024/11/12 13:34:05 [notice] 34#34: gracefully shutting down
+2024/11/12 13:34:05 [notice] 30#30: gracefully shutting down
+2024/11/12 13:34:05 [notice] 37#37: gracefully shutting down
+2024/11/12 13:34:05 [notice] 38#38: gracefully shutting down
+2024/11/12 13:34:05 [notice] 39#39: gracefully shutting down
+2024/11/12 13:34:05 [notice] 40#40: gracefully shutting down
+2024/11/12 13:34:05 [notice] 29#29: exiting
+2024/11/12 13:34:05 [notice] 35#35: exiting
+2024/11/12 13:34:05 [notice] 32#32: exiting
+2024/11/12 13:34:05 [notice] 33#33: exiting
+2024/11/12 13:34:05 [notice] 30#30: exiting
+2024/11/12 13:34:05 [notice] 39#39: exiting
+2024/11/12 13:34:05 [notice] 31#31: exiting
+2024/11/12 13:34:05 [notice] 36#36: exiting
+2024/11/12 13:34:05 [notice] 32#32: exit
+2024/11/12 13:34:05 [notice] 31#31: exit
+2024/11/12 13:34:05 [notice] 36#36: exit
+2024/11/12 13:34:05 [notice] 34#34: exiting
+2024/11/12 13:34:05 [notice] 37#37: exiting
+2024/11/12 13:34:05 [notice] 38#38: exiting
+2024/11/12 13:34:05 [notice] 40#40: exiting
+2024/11/12 13:34:05 [notice] 29#29: exit
+2024/11/12 13:34:05 [notice] 33#33: exit
+2024/11/12 13:34:05 [notice] 35#35: exit
+2024/11/12 13:34:05 [notice] 39#39: exit
+2024/11/12 13:34:05 [notice] 30#30: exit
+2024/11/12 13:34:05 [notice] 37#37: exit
+2024/11/12 13:34:05 [notice] 34#34: exit
+2024/11/12 13:34:05 [notice] 38#38: exit
+2024/11/12 13:34:05 [notice] 40#40: exit
+2024/11/12 13:34:06 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/11/12 13:34:06 [notice] 1#1: worker process 35 exited with code 0
+2024/11/12 13:34:06 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/12 13:34:06 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/11/12 13:34:06 [notice] 1#1: worker process 30 exited with code 0
+2024/11/12 13:34:06 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/12 13:34:06 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2024/11/12 13:34:06 [notice] 1#1: worker process 29 exited with code 0
+2024/11/12 13:34:06 [notice] 1#1: worker process 31 exited with code 0
+2024/11/12 13:34:06 [notice] 1#1: worker process 32 exited with code 0
+2024/11/12 13:34:06 [notice] 1#1: worker process 34 exited with code 0
+2024/11/12 13:34:06 [notice] 1#1: worker process 36 exited with code 0
+2024/11/12 13:34:06 [notice] 1#1: worker process 38 exited with code 0
+2024/11/12 13:34:06 [notice] 1#1: worker process 39 exited with code 0
+2024/11/12 13:34:06 [notice] 1#1: worker process 40 exited with code 0
+2024/11/12 13:34:06 [notice] 1#1: signal 29 (SIGIO) received
+2024/11/12 13:34:06 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2024/11/12 13:34:06 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2024/11/12 13:34:06 [notice] 1#1: worker process 37 exited with code 0
+2024/11/12 13:34:06 [notice] 1#1: worker process 33 exited with code 0
+2024/11/12 13:34:06 [notice] 1#1: exit
+2024/11/12 15:18:13 [notice] 1#1: using the "epoll" event method
+2024/11/12 15:18:13 [notice] 1#1: nginx/1.27.2
+2024/11/12 15:18:13 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/11/12 15:18:13 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/11/12 15:18:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/11/12 15:18:13 [notice] 1#1: start worker processes
+2024/11/12 15:18:13 [notice] 1#1: start worker process 29
+2024/11/12 15:18:13 [notice] 1#1: start worker process 30
+2024/11/12 15:18:13 [notice] 1#1: start worker process 31
+2024/11/12 15:18:13 [notice] 1#1: start worker process 32
+2024/11/12 15:18:13 [notice] 1#1: start worker process 33
+2024/11/12 15:18:13 [notice] 1#1: start worker process 34
+2024/11/12 15:18:13 [notice] 1#1: start worker process 35
+2024/11/12 15:18:13 [notice] 1#1: start worker process 36
+2024/11/12 15:18:13 [notice] 1#1: start worker process 37
+2024/11/12 15:18:13 [notice] 1#1: start worker process 38
+2024/11/12 15:18:13 [notice] 1#1: start worker process 39
+2024/11/12 15:18:13 [notice] 1#1: start worker process 40
+2024/11/13 11:26:21 [notice] 1#1: using the "epoll" event method
+2024/11/13 11:26:21 [notice] 1#1: nginx/1.27.2
+2024/11/13 11:26:21 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/11/13 11:26:21 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2024/11/13 11:26:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/11/13 11:26:21 [notice] 1#1: start worker processes
+2024/11/13 11:26:21 [notice] 1#1: start worker process 29
+2024/11/13 11:26:21 [notice] 1#1: start worker process 30
+2024/11/13 11:26:21 [notice] 1#1: start worker process 31
+2024/11/13 11:26:21 [notice] 1#1: start worker process 32
+2024/11/13 11:26:21 [notice] 1#1: start worker process 33
+2024/11/13 11:26:21 [notice] 1#1: start worker process 34
+2024/11/13 11:26:21 [notice] 1#1: start worker process 35
+2024/11/13 11:26:21 [notice] 1#1: start worker process 36
+2024/11/13 11:26:21 [notice] 1#1: start worker process 37
+2024/11/13 11:26:21 [notice] 1#1: start worker process 38
+2024/11/13 11:26:21 [notice] 1#1: start worker process 39
+2024/11/13 11:26:21 [notice] 1#1: start worker process 40
+2024/11/13 11:26:31 [error] 29#29: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2024/11/13 11:59:33 [notice] 1#1: using the "epoll" event method
+2024/11/13 11:59:33 [notice] 1#1: nginx/1.27.2
+2024/11/13 11:59:33 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/11/13 11:59:33 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2024/11/13 11:59:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/11/13 11:59:33 [notice] 1#1: start worker processes
+2024/11/13 11:59:33 [notice] 1#1: start worker process 29
+2024/11/13 11:59:33 [notice] 1#1: start worker process 30
+2024/11/13 11:59:33 [notice] 1#1: start worker process 31
+2024/11/13 11:59:33 [notice] 1#1: start worker process 32
+2024/11/13 11:59:33 [notice] 1#1: start worker process 33
+2024/11/13 11:59:33 [notice] 1#1: start worker process 34
+2024/11/13 11:59:33 [notice] 1#1: start worker process 35
+2024/11/13 11:59:33 [notice] 1#1: start worker process 36
+2024/11/13 11:59:33 [notice] 1#1: start worker process 37
+2024/11/13 11:59:33 [notice] 1#1: start worker process 38
+2024/11/13 11:59:33 [notice] 1#1: start worker process 39
+2024/11/13 11:59:33 [notice] 1#1: start worker process 40
+2024/11/13 12:00:44 [error] 29#29: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/billede.php"
+2024/11/13 16:43:52 [error] 30#30: *30 open() "/var/www/html/script.js" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /script.js HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/nedt%C3%A6lling.php"
+2024/11/13 16:43:52 [error] 30#30: *30 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/nedt%C3%A6lling.php"
+2024/11/13 16:44:20 [error] 30#30: *30 open() "/var/www/html/script.js" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /script.js HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/nedt%C3%A6lling.php"
+2024/11/13 16:44:39 [error] 30#30: *30 open() "/var/www/html/script.js" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /script.js HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/nedt%C3%A6lling.php"
+2024/11/13 16:45:11 [error] 30#30: *30 open() "/var/www/html/script.js" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /script.js HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/nedt%C3%A6lling.php"
+2024/12/09 10:00:47 [notice] 1#1: using the "epoll" event method
+2024/12/09 10:00:47 [notice] 1#1: nginx/1.27.2
+2024/12/09 10:00:47 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/12/09 10:00:47 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2024/12/09 10:00:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/12/09 10:00:47 [notice] 1#1: start worker processes
+2024/12/09 10:00:47 [notice] 1#1: start worker process 30
+2024/12/09 10:00:47 [notice] 1#1: start worker process 31
+2024/12/09 10:00:47 [notice] 1#1: start worker process 32
+2024/12/09 10:00:47 [notice] 1#1: start worker process 33
+2024/12/09 10:00:47 [notice] 1#1: start worker process 34
+2024/12/09 10:00:47 [notice] 1#1: start worker process 35
+2024/12/09 10:00:47 [notice] 1#1: start worker process 36
+2024/12/09 10:00:47 [notice] 1#1: start worker process 37
+2024/12/09 10:00:47 [notice] 1#1: start worker process 38
+2024/12/09 10:00:47 [notice] 1#1: start worker process 39
+2024/12/09 10:00:47 [notice] 1#1: start worker process 40
+2024/12/09 10:00:47 [notice] 1#1: start worker process 41
+2024/12/09 10:00:58 [error] 30#30: *1 open() "/var/www/html/lorem.html" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /lorem.html HTTP/1.1", host: "localhost:8081"
+2024/12/09 10:01:21 [error] 34#34: *6 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
