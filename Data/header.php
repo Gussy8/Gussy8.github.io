@@ -34,11 +34,7 @@
                 if ($file == "studietur")
                     echo '<li><a class="active" href="studietur.php">Studietur</a></li>';
                 else
-                    echo '<li><a href="studietur.php">Studietur</a></li>';
-                if ($file == "maps")
-                    echo '<li><a class="active" href="maps.php">Maps</a></li>';
-                else
-                    echo '<li><a href="maps.php">Maps</a></li>';   
+                    echo '<li><a href="studietur.php">Studietur</a></li>';   
                 ?>           
             </ul>
         </div>
